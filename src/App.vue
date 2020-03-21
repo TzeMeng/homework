@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <BubbleChart></BubbleChart>
+    <FirebaseBubble></FirebaseBubble>
   </div>
 </template>
 
 <script>
-import BubbleChart from './components/BubbleChart.vue'
+//import BubbleChart from './components/BubbleChart.vue'
+import FirebaseBubble from './components/FirebaseData.vue'
 export default {
   name: 'app',
   components: {
-    BubbleChart
+    FirebaseBubble
   }
 }
 </script>

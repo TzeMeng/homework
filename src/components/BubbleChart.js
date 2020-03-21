@@ -5,7 +5,7 @@ export default {
   data: function () {
     return {
         datacollection: {
-            labels: "Africa",
+
             datasets: [
               {
                 label: ["China"],
@@ -23,7 +23,7 @@ export default {
                 data: [{
                   x: 258702,
                   y: 7.526,
-                  r: 0.5
+                  r: 10
                 }]
               }, {
                 label: ["Germany"],
